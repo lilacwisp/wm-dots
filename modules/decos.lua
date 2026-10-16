@@ -7,6 +7,10 @@ hl.config {
     col = {
       active_border = main_col,
       inactive_border = scnd_col
-    }
+    },
+  },
+  decoration = {
+    rounding = 3,
+    rounding_power = 3
   }
 }

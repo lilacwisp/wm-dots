@@ -7,7 +7,7 @@ local U = {}
 
 U.trml = 'uwsm app kitty' -- press <c-t>
 U.mntr = U.trml .. ' htop'
-U.wllp = U.trml .. ' hyprpaper'
+U.wllp = 'uwsm app hyprpaper'
 
 _G.U = U
 
