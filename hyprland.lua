@@ -3,16 +3,19 @@ hl.monitor {
   scale = 1.33
 }
 
--- applications and software
-trml = 'uwsm app kitty' -- press <c-t>
-mntr = trml .. ' htop'
-wllp = trml .. ' hyprpaper'
+local U = {}
 
-require('modules.binds')
-require('modules.rules')
-require('modules.start')
-require('modules.decos')
-require('modules.anims')
+U.trml = 'uwsm app kitty' -- press <c-t>
+U.mntr = U.trml .. ' htop'
+U.wllp = U.trml .. ' hyprpaper'
+
+_G.U = U
+
+require 'modules.binds'
+require 'modules.rules'
+require 'modules.start'
+require 'modules.decos'
+require 'modules.anims'
 
 -- essential settings
 hl.config {

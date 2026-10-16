@@ -8,7 +8,7 @@ local w = d.window
 
 local mod = 'SUPER'
 
-b (mod .. ' + t', function () dsp (c (trml)) end)
+b (mod .. ' + t', function () dsp (c (U.trml)) end)
 
 b (mod .. ' + SHIFT + q', function ()
   dsp (c 'uwsm stop' ) end, { description = 'exit this Wayland session' })
@@ -25,6 +25,9 @@ end
 
 for index = 1, 10 do
   local key = index % 10
-  b (mod .. ' + ' .. key, function () dsp (d.focus { workspace = key }) end)
-  b (mod .. ' + ' .. key, function () dsp (d.window.move { workspace = key }) end)
+  b (mod .. ' + ' .. key, function ()
+    dsp (d.focus { workspace = key }) end, { release = true, click = true })
+
+  b (mod .. ' + ' .. key, function ()
+    dsp (d.window.move { workspace = key }) end, { long_press = true })
 end
