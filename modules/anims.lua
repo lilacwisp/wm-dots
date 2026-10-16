@@ -28,8 +28,6 @@ hl.animation {
 
 hl.animation { leaf = 'windowsMove', enabled = true, speed = 5.0, bezier = 'instant' }
 
-for _, value in ipairs { 'fadeIn', 'fadeOut' } do
+for _, value in ipairs { 'fadeIn', 'fadeOut', 'fadeSwitch' } do
   hl.animation { leaf = value, enabled = true, speed = 5.0, bezier = 'relaxed' }
 end
-
-hl.animation { leaf = 'fadeSwitch', enabled = true, speed = 5.0, bezier = 'relaxed' }
