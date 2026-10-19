@@ -9,6 +9,7 @@ local w = d.window
 local mod = 'SUPER'
 
 b (mod .. ' + t', function () dsp (c (U.trml)) end)
+b (mod .. ' + b', function () dsp (c (U.brsr)) end)
 
 b (mod .. ' + SHIFT + q', function ()
   dsp (c 'uwsm stop' ) end, { description = 'exit this Wayland session' })

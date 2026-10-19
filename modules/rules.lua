@@ -5,5 +5,5 @@ hl.window_rule {
 
 hl.window_rule {
   match = { class = 'org.pwmt.zathura' },
-  opacity = '0.9 override'
+  opacity = '1.0 override'
 }

@@ -6,6 +6,7 @@ hl.monitor {
 local U = {}
 
 U.trml = 'uwsm app kitty' -- press <c-t>
+U.brsr = 'uwsm app firefox'
 U.mntr = U.trml .. ' htop'
 U.wllp = 'uwsm app hyprpaper'
 
