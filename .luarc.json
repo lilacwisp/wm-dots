@@ -4,10 +4,7 @@
   },
   "workspace": {
     "library": [
-      "usr/share/hypr/stubs"
+      "/usr/share/hypr/stubs"
     ]
-  },
-  "diagnostics": {
-    "globals": [ "hl" ]
   }
 }
