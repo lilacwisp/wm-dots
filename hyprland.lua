@@ -5,7 +5,7 @@ hl.monitor {
 
 local U = {}
 
-U.trml = 'uwsm app kitty' -- press <c-t>
+U.trml = 'uwsm app kitty'
 U.brsr = 'uwsm app firefox'
 U.mntr = U.trml .. ' htop'
 U.wllp = 'uwsm app hyprpaper'
@@ -18,7 +18,6 @@ require 'modules.start'
 require 'modules.decos'
 require 'modules.anims'
 
--- essential settings
 hl.config {
   decoration = {
     active_opacity = 0.9,

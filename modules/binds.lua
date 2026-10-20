@@ -1,4 +1,3 @@
--- keybinds
 local dsp = hl.dispatch
 
 local b = hl.bind

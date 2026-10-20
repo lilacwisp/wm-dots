@@ -1,4 +1,3 @@
--- curves
 hl.curve('base', {
   type = 'bezier',
   points = { {0.0, 0.0}, {1.0, 1.0} }
@@ -16,7 +15,6 @@ hl.curve('instant', {
   points = { {0.0, 1.0}, {0.0, 1.0} }
 })
 
--- tree
 hl.animation { leaf = 'global', enabled = true, speed = 0.5, bezier = 'base' }
 hl.animation {
   leaf = 'windows',
