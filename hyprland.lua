@@ -23,7 +23,7 @@ hl.config {
     active_opacity = 0.9,
     inactive_opacity = 0.33,
 
-    blur = { enabled = false },
+    blur = { enabled = true },
     shadow = { enabled = false }
   },
 

@@ -1,5 +1,5 @@
-local main_col = '#007fff'
-local scnd_col = '#0066cc'
+local main_col = '#202040'
+local scnd_col = '#202020'
 
 hl.config {
   general = {
